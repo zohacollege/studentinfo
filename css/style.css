@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    padding:0px 20px;
+    overflow: hidden;
+}
+/* nav::after{
+    content: "";
+  clear: both;
+  display: table;
+} */
+body{
+    background: rgb(212, 212, 212);
+}
+nav{
+    background: rgb(10, 153, 117);
+    overflow: hidden;
+}
+.navbar-brand {
+    width: 75px;
+    display: inline-block;
+    padding: 4px 0px;
+}
+
+.navbar-brand img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact {
+    width: 197px;
+    display: inline-block;
+    text-align: right;
+    color: #d5d5d5;
+    font-size: 16px;
+    float: right;
+    padding-top: 23px;
+}
+.contact p {
+    line-height: 23px;
+    font-family: arial;
+}
+
+.section {
+    text-align: center;
+    padding-bottom: 35px;
+}
+h1.title {
+    margin-top: 41px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 15px;
+    color: #c60000;
+    font-family: arial;
+}
+h2.exam-info {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #757575;
+}
+.login-box {
+    background: #4267B2;
+    width: 95%;
+    margin: auto;
+    padding: 34px 5px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px #7892c6;
+}
+
+.login-box h2 {
+    color: #fff;
+    font-size: 24px;
+    font-family: arial;
+    margin-bottom: 11px;
+}
+.login-box i {
+    background: #4267B2;
+
+    color: #fff;
+    font-size: 59px;
+    margin-bottom: 10px;
+}
+.info {
+    width: 90%;
+    margin: auto;
+}
+
+.form-control input {
+    width: 97%;
+    max-width: 92%;
+    padding: 12px 8px;
+    margin: 6px auto;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.form-control input::placeholder {
+        font-size: 15px;
+        font-family: arial;
+}
+input.submit {
+    background: #042b7a;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    width: 89%;
+    /* margin: auto; */
+    font-weight: bold;
+    margin-top: 8px;
+}
+a.forgotten {
+    color: #d10000;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 17px;
+}
